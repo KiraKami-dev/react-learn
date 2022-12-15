@@ -1,0 +1,59 @@
+body{
+    margin: 0px 0px;
+    padding: 0px 0px;
+    background-color: #282D35;
+    font-family: 'Roboto', sans-serif;
+    background-image: url('./img/reactjs-icon2.png');
+    background-repeat: no-repeat;
+    background-position: right;
+    background-position-y: 75% ;
+}
+/* Nav bar */
+.navlogo{
+    width: 29px;
+    height: 29px;
+}
+nav{
+    display: flex;
+    align-items: center;
+    background-color: #21222A;
+    width: 100%;
+    justify-content: space-between;
+}
+.container{
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+}
+h5 {
+    color: #61DAFB;
+    padding-left: 10px;
+}
+.nav3 {
+    color: #DEEBF8;
+    margin-right: 20px;
+}
+
+/* Content page */
+
+.content{
+    color: #FFF;
+}
+
+.content h2{
+    margin: 30px;
+    font-size: 32px;
+}
+.content li{
+    margin: 8px;
+    
+}
+.content li::marker{
+    color: #61DAFB;
+    font-size: 1.4rem;
+}
+.img2{
+    position: absolute;
+    top:70px;
+    right: 0px;
+}

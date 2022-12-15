@@ -1,10 +1,16 @@
-import React from 'react'
-import  ReactDOM  from 'react-dom'
+import React from "react";
+import ReactDOM from "react-dom";
+import Navbar from "./components/Navbar"
+import Content from "./components/Content";
+import "./styles.css"
 
-const page = (
+function App() {
+  return (
     <>
-    <h1>Hello World!</h1>
+    <Navbar />
+    <Content />
     </>
-)
+  );
+}
 
-ReactDOM.render(page,document.getElementById('root'));
+ReactDOM.render(<App />, document.getElementById("root"));
