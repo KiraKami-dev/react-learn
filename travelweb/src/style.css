@@ -1,0 +1,82 @@
+body{
+    margin: 0px 0px;
+    padding: 0px 0px;
+    font-family: Roboto,sans-serif;
+}
+/* ------ Navbar ------ */
+
+nav{
+    display: flex;
+    justify-content: center;
+    height: 55px;
+    background-color: #e74949;
+    color: white;
+    align-items: center;
+
+}
+.earthlogo{
+    margin-right: 9px;
+}
+.nav--text{
+    font-weight: medium;
+    font-size: 14.46px;
+}
+
+/* ----Container ----- */
+
+.container{
+    margin-left:  40px;
+    margin-right: 40px;
+    margin-top: 40px;
+    border-bottom: 1px solid #F5F5F5 ;
+    padding-bottom: 16px;
+    display: flex;
+}
+.sub--img{
+    height: 168px;
+    width: 125px;
+    border-radius: 5px;
+    object-fit: cover;
+}
+
+.location{
+    letter-spacing: 3px;
+    font-weight: regular;
+    font-size: 10.24px;
+    margin-left: 4px;
+    margin-right: 12px;
+}
+.maps{
+    color: #918E9B;
+    font-size: 10.24px;
+    text-decoration: none;
+    border-bottom: 0.5px solid #918E9B;
+    padding-bottom:1px ;
+    line-height: 12px;
+}
+.sub--cont2{
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.sub--cont3{
+    display: flex;
+    align-items: center;
+}
+.title{
+    color : #2B283A;
+    font-size: 25px;
+    line-height: 30px;
+    margin: 0px;
+    margin-bottom: 12px;
+    font-style: normal;
+    font-weight: 700px;
+}
+.date{
+
+    font-size: 10.24px;
+    font-weight: bold;
+}
+.description{
+    color: #2B283A;
+    font-size: 10.24px;
+}
