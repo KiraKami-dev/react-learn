@@ -45,6 +45,7 @@ section {
 
 .container{
     margin-left: 37px;
+    margin-right: 17px;
     font-size: 12px;
 }
 .cardimg{
@@ -99,4 +100,7 @@ section {
 
 .appcont{
     display: flex;
+    flex-wrap: nowrap;
+    gap: 0px;
+    overflow-x: auto;
 }
