@@ -2,13 +2,16 @@ import React from "react";
 import Star from "../img/Star.png";
 import circle from "../img/circle.png";
 
-
 export default function Card(props) {
+  let badgetext;
+  if (props.openSpots == 0) {
+    badgetext = "SOLD OUT";
+  }
   return (
     <div className="container">
       <div className="subcont1">
         <img src={props.img} className="cardimg" />
-        <div className="sold">{props.status}</div>
+        {props.openSpots === 0 && <div className="sold">{badgetext}</div>}
       </div>
       <div className="starrow">
         <img src={Star} className="starimg" />

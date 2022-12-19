@@ -17,6 +17,7 @@ function App() {
         country="USA"
         title={items.title}
         price={items.price}
+        openSpots={items.openSpots}
       />
     );
   });
